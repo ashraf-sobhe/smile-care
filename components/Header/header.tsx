@@ -30,35 +30,19 @@ export default function Header() {
               placeholder="Search in here"
               className="flex-1 bg-transparent outline-none placeholder:text-[#ADC2FF] text-[13px] font-[var(--font-dmsans)]"
             />
-            <Image
-              src="/search2.png"
-              alt="Search Icon"
-              width={18}
-              height={18}
-            />
+            <Image src="/search2.png" alt="Search Icon" width={18} height={18} />
           </div>
         </div>
 
         {/* Desktop: Logo left, Info + Appointment right */}
         <div className="hidden md:flex items-center justify-between w-full">
           <div className="flex items-center gap-2">
-            <Image
-              src="/Logo.png"
-              alt="Logo"
-              width={163}
-              height={44}
-              priority
-            />
+            <Image src="/Logo.png" alt="Logo" width={163} height={44} priority />
           </div>
 
           <div className="flex items-center space-x-6">
             <div className="flex items-center gap-3 font-[var(--font-dmsans)] text-gray-800 text-[15px]">
-              <Image
-                src="/location.png"
-                alt="Location Icon"
-                width={18}
-                height={18}
-              />
+              <Image src="/location.png" alt="Location Icon" width={18} height={18} />
               <span>St. Sanguin Number 40</span>
             </div>
             <div className="flex items-center gap-3 font-[var(--font-dmsans)] text-gray-800 text-[15px]">
@@ -71,6 +55,9 @@ export default function Header() {
           </div>
         </div>
       </div>
+
+      {/* الخط الكامل من أول الصفحة لآخرها */}
+      <div className="absolute bottom-0 left-0 w-full h-[1px] bg-[#C2D1FF]" />
 
       {menuOpen && (
         <div className="md:hidden bg-[#EFF6FF] shadow-lg absolute top-full left-0 w-full z-50">
@@ -95,82 +82,47 @@ export default function Header() {
               {/* القايمة الفرعية تظهر تلقائي */}
               {homeOpen && (
                 <div className="ml-6 mt-2 flex flex-col space-y-2">
-                  <a
-                    href="#"
-                    className="text-sm text-gray-700 hover:text-blue-600"
-                  >
+                  <a href="#" className="text-sm text-gray-700 hover:text-blue-600">
                     Homepage 1
                   </a>
-                  <a
-                    href="#"
-                    className="text-sm text-gray-700 hover:text-blue-600"
-                  >
+                  <a href="#" className="text-sm text-gray-700 hover:text-blue-600">
                     Homepage 2
                   </a>
                 </div>
               )}
             </div>
 
-            <a
-              href="#"
-              className="text-[#142349] font-[var(--font-jakarta)] font-bold text-[15px] pb-2 border-b border-gray-300"
-            >
+            <a href="#" className="text-[#142349] font-[var(--font-jakarta)] font-bold text-[15px] pb-2 border-b border-gray-300">
               About Us
             </a>
-            <a
-              href="#"
-              className="text-[#142349] font-[var(--font-jakarta)] font-bold text-[15px] pb-2 border-b border-gray-300"
-            >
+            <a href="#" className="text-[#142349] font-[var(--font-jakarta)] font-bold text-[15px] pb-2 border-b border-gray-300">
               Services
             </a>
 
             {/* Pages dropdown */}
             <div className="flex items-center justify-between w-full text-[#142349] font-[var(--font-jakarta)] font-bold text-[15px] cursor-pointer pb-2 border-b border-gray-300">
               Pages
-              <Image
-                src="/arrow-down.png"
-                alt="Pages Dropdown"
-                width={14}
-                height={14}
-              />
+              <Image src="/arrow-down.png" alt="Pages Dropdown" width={14} height={14} />
             </div>
 
             {/* Blog dropdown */}
             <div className="flex items-center justify-between w-full text-[#142349] font-[var(--font-jakarta)] font-bold text-[15px] cursor-pointer pb-2 border-b border-gray-300">
               Blog
-              <Image
-                src="/arrow-down.png"
-                alt="Blog Dropdown"
-                width={14}
-                height={14}
-              />
+              <Image src="/arrow-down.png" alt="Blog Dropdown" width={14} height={14} />
             </div>
 
-            <a
-              href="#"
-              className="text-[#142349] font-[var(--font-jakarta)] font-bold text-[15px] pb-2 border-b border-gray-300"
-            >
+            <a href="#" className="text-[#142349] font-[var(--font-jakarta)] font-bold text-[15px] pb-2 border-b border-gray-300">
               Contact
             </a>
 
             {/* Location & Phone */}
             <div className="flex flex-col space-y-2 mt-2">
               <div className="flex items-center gap-2 text-[#142349] font-[var(--font-dmsans)] text-[14px]">
-                <Image
-                  src="/location.png"
-                  alt="Location Icon"
-                  width={16}
-                  height={16}
-                />
+                <Image src="/location.png" alt="Location Icon" width={16} height={16} />
                 <span>St. Sanguin Number 40</span>
               </div>
               <div className="flex items-center gap-2 text-[#142349] font-[var(--font-dmsans)] text-[14px]">
-                <Image
-                  src="/phone.png"
-                  alt="Phone Icon"
-                  width={16}
-                  height={16}
-                />
+                <Image src="/phone.png" alt="Phone Icon" width={16} height={16} />
                 <span>+1234 - 4567 - 890</span>
               </div>
             </div>
