@@ -12,7 +12,7 @@ export default function Header() {
       <div className="relative max-w-7xl mx-auto flex items-center justify-between py-3 px-6">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          <Image src="/logo.png" alt="Logo" width={163} height={44} />
+          <Image src="/Logo.png" alt="Logo" width={163} height={44} />
         </div>
 
         {/* Right Side: Info + Appointment Button */}
