@@ -6,7 +6,7 @@ import { Plus_Jakarta_Sans, DM_Sans } from "next/font/google";
 import HeroSection from "../components/Hero/heroSection";
 import OurPartners from "../components/OurPartners/ourPartners";
 import About from "../components/About/about";
-
+import Provid from "../components/Provid/provid";
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -23,18 +23,14 @@ const dmSans = DM_Sans({
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <main className={`${jakarta.variable} ${dmSans.variable} font-sans`}>
-      {/* الجزء اللي لونه من فيجما */}
-      <div className="bg-[#C7F0FD]">
+      {/* كل الصفحة بخلفية بيضاء */}
+      <div className="bg-white">
         <Header />
         <SecondaryHeader />
         <HeroSection />
         <OurPartners />
         <About />
-        {/* هنا لو في Hero Section أو Banner */}
-      </div>
-
-      {/* باقي الصفحة أبيض */}
-      <div className="bg-white">
+        <Provid />
       </div>
     </main>
   );
