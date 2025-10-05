@@ -4,6 +4,7 @@ import Header from "../components/Header/header";
 import SecondaryHeader from "../components/Header/SecondaryHeader";
 import { Plus_Jakarta_Sans, DM_Sans } from "next/font/google";
 import HeroSection from "../components/Hero/heroSection";
+import OurPartners from "../components/OurPartners/ourPartners";
 
 
 const jakarta = Plus_Jakarta_Sans({
@@ -26,6 +27,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <Header />
         <SecondaryHeader />
         <HeroSection />
+        <OurPartners />
         {/* هنا لو في Hero Section أو Banner */}
       </div>
 

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full overflow-hidden bg-[#EFF6FF] md:bg-transparent">
+    <section className="relative w-full overflow-hidden bg-[#EFF6FF] ">
       {/* Background split for desktop */}
       <div className="absolute inset-0 flex hidden md:flex">
         <div className="w-[71.5%] bg-[#EFF6FF]" /> {/* الأزرق */}
@@ -12,13 +12,12 @@ export default function HeroSection() {
 
       <div className="relative max-w-7xl mx-auto px-4 md:px-6 md:pl-48 flex flex-col md:flex-row items-start md:items-center">
         {/* Left content */}
-        <div className="relative flex flex-col md:flex-1 mt-16 md:mt-0 md:pr-10">
-          {/* Small title for mobile/tablet */}
+        <div className="relative flex flex-col md:flex-1 mt-14  md:mt-0 md:pr-10">
           <h3 className="text-[15px] md:hidden text-[#FF9140] font-semibold mb-1 mt-0">
             Welcome to CONFIDENT
           </h3>
 
-          <h1 className="mt-6 text-[40px] md:mt-0 md:text-[70px] leading-[110%] font-semibold font-serif tracking-tight">
+          <h1 className="mt-4 text-[40px] md:mt-0 md:text-[70px] leading-[110%] font-semibold font-serif tracking-tight">
             High Quality & <br />
             <span className="text-[#3366FF]">Painless</span>
             <span className="text-[#142349]"> Dentistry</span>
@@ -31,7 +30,7 @@ export default function HeroSection() {
           </p>
 
           {/* Buttons */}
-          <div className="mt-6 flex flex-row items-center gap-4 md:flex-row md:gap-12 pb-50">
+          <div className="mt-6 flex flex-row items-center gap-4 md:flex-row md:gap-12 pb-8 md:pb-50">
             <button className="bg-[#3366FF] text-white px-5 py-2 rounded-full text-[14px] md:text-[15px] font-[var(--font-jakarta)] font-semibold tracking-[0.15em] hover:bg-blue-600 transition">
               CONTACT US
             </button>
@@ -56,24 +55,24 @@ export default function HeroSection() {
           <Image
             src="/hero-image.png"
             alt="Hero Desktop"
-            width={600}
-            height={600}
-            className="object-contain md:w-[600px] md:h-[600px] md:translate-x-45 md:-translate-y-20"
+            width={550}
+            height={550}
+            className="object-contain md:w-[550px] md:h-[550px] md:translate-x-38 md:-translate-y-20"
           />
         </div>
       </div>
 
       {/* Right Image for Mobile only */}
-      {/* Right Image for Mobile only */}
-      {/* صورة الموبايل فقط */}
-      <div className="md:hidden w-full flex justify-center mt-4 px-4">
-        <Image
-          src="/hero-image.png"
-          alt="Hero Mobile"
-          width={400} // حجم أصلي للصورة
-          height={400}
-          className="w-full max-w-[250px] h-auto object-contain"
-        />
+      <div className="md:hidden w-full flex justify-center mt-0 px-0">
+        <div className="relative w-full max-w-[350px] aspect-[4/5]">
+          <Image
+            src="/hero-image2.png"
+            alt="Hero Mobile"
+            fill
+            className="object-contain"
+            priority
+          />
+        </div>
       </div>
     </section>
   );

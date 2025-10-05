@@ -9,7 +9,7 @@ export default function SecondaryHeader() {
         <div className="w-[28.5%] bg-white" />
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-6 py-3">
+      <div className="relative max-w-7xl mx-auto px-6 py-7">
         <div className="flex items-center justify-between bg-[#D7F3FD] rounded-full px-6 py-2">
           {/* Navigation Links */}
           <nav className="flex items-center space-x-12">

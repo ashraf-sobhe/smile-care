@@ -7,7 +7,7 @@ export default function Header() {
   const [homeOpen, setHomeOpen] = useState(false);
 
   return (
-    <header className="relative w-full bg-[#EFF6FF] md:bg-transparent">
+    <header className="relative w-full bg-[#EFF6FF] ">
       {/* Desktop split background */}
       <div className="absolute inset-0 flex hidden md:flex">
         <div className="w-[71.5%] bg-[#EFF6FF]" />
