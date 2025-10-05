@@ -10,7 +10,7 @@ export default function HeroSection() {
         <div className="w-[28.5%] bg-white" /> {/* الأبيض */}
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-4 md:px-6 md:pl-48 flex flex-col md:flex-row items-start md:items-center">
+      <div className="relative max-w-7xl mx-auto px-4 md:px-8 md:pl-48 flex flex-col md:flex-row items-start md:items-center">
         {/* Left content */}
         <div className="relative flex flex-col md:flex-1 mt-14  md:mt-0 md:pr-10">
           <h3 className="text-[15px] md:hidden text-[#FF9140] font-semibold mb-1 mt-0">
