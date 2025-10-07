@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function NumbersSection() {
   return (
-<section className="max-w-[1400px] mx-4 sm:mx-auto bg-white rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.10)] py-20 px-8 sm:px-16 mt-20">
+<section className="max-w-[1400px] mx-4 sm:mx-auto bg-white rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.10)] py-20 px-8 sm:px-16 mt-20 mb-20">
       {/* نسخة الديسكتوب */}
       <div className="hidden md:flex justify-between items-center">
         {/* الصورة 1 */}

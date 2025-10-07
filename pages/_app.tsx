@@ -8,6 +8,7 @@ import OurPartners from "../components/OurPartners/ourPartners";
 import About from "../components/About/about";
 import Provid from "../components/Provid/provid";
 import Numbers from "../components/Numbers/numbers";
+import Slider from "../components/Slider/slider";
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -33,6 +34,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <About />
         <Provid />
         <Numbers />
+        <Slider />
       </div>
     </main>
   );
