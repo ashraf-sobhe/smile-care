@@ -119,12 +119,8 @@ export default function BestDentistSection() {
                           alt={s.alt}
                           width={22}
                           height={22}
+                          className="cursor-pointer"
                           onClick={() => setActiveSocial(s.alt)}
-                          className={`cursor-pointer transition duration-300 ${
-                            activeSocial === s.alt
-                              ? "opacity-100 scale-110"
-                              : "opacity-40 hover:opacity-100"
-                          }`}
                         />
                       ))}
                     </div>
@@ -138,13 +134,13 @@ export default function BestDentistSection() {
         {/* الأسهم */}
         <button
           onClick={prevSlide}
-          className="absolute z-10 p-2 sm:p-3 left-[120px]"
+          className="absolute z-10 p-2 sm:p-3 left-[90px]"
         >
           <Image src="/denl.png" alt="Previous" width={40} height={40} />
         </button>
         <button
           onClick={nextSlide}
-          className="absolute z-10 p-2 sm:p-3 right-[120px]"
+          className="absolute z-10 p-2 sm:p-3 right-[90px]"
         >
           <Image src="/denr.png" alt="Next" width={40} height={40} />
         </button>
@@ -180,11 +176,7 @@ export default function BestDentistSection() {
                   alt={s.alt}
                   width={22}
                   height={22}
-                  className={`cursor-pointer transition-all duration-300 ${
-                    activeSocial === s.alt
-                      ? "opacity-100"
-                      : "opacity-40 grayscale"
-                  }`}
+                  className="cursor-pointer"
                   onClick={() => setActiveSocial(s.alt)}
                 />
               ))}
@@ -195,13 +187,13 @@ export default function BestDentistSection() {
         {/* الأسهم في الموبايل */}
         <button
           onClick={prevSlide}
-          className="absolute left-[-10px] top-1/2 transform -translate-y-1/2"
+          className="absolute left-[-15px] top-1/2 transform -translate-y-1/2"
         >
           <Image src="/denl.png" alt="Previous" width={35} height={35} />
         </button>
         <button
           onClick={nextSlide}
-          className="absolute right-[-10px] top-1/2 transform -translate-y-1/2"
+          className="absolute right-[-15px] top-1/2 transform -translate-y-1/2"
         >
           <Image src="/denr.png" alt="Next" width={35} height={35} />
         </button>
