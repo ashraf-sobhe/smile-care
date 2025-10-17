@@ -9,7 +9,7 @@ import About from "../components/About/about";
 import Provid from "../components/Provid/provid";
 import Numbers from "../components/Numbers/numbers";
 import Slider from "../components/Slider/slider";
-import Asset from "../components/Asset/asset";
+import Asset from "../components/Asset/asset"
 import Confidence from "../components/Confidence/confidence"
 
 const jakarta = Plus_Jakarta_Sans({
