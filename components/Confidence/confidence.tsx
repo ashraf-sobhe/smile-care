@@ -90,48 +90,49 @@ export default function ConfidenceSection() {
         </h2>
 
         {/* الصورة اليسار */}
-        <div className="mb-10 w-screen mx-[-1rem] sm:mx-0">
-          <Image
-            src="/left.png"
-            alt="Smiling person"
-            width={500}
-            height={500}
-            className="object-contain w-full rounded-2xl"
-          />
-        </div>
+       <div className="mb-10 w-screen flex justify-center mx-[-1rem] sm:mx-0">
+  <Image
+    src="/left.png"
+    alt="Smiling person"
+    width={550}
+    height={550}
+    className="object-contain w-full max-w-[500px] rounded-2xl"
+  />
+</div>
 
-        {/* الأربع صور تحت بعض */}
-        <div className="w-screen flex flex-col items-center gap-4 mx-[-1rem] sm:mx-0">
-          <Image
-            src="/right1.png"
-            alt="Right Image 1"
-            width={400}
-            height={400}
-            className="rounded-2xl object-cover w-full"
-          />
-          <Image
-            src="/right2.png"
-            alt="Right Image 2"
-            width={400}
-            height={400}
-            className="rounded-2xl object-cover w-full"
-          />
-          <Image
-            src="/right3.png"
-            alt="Right Image 3"
-            width={400}
-            height={400}
-            className="rounded-2xl object-cover w-full"
-          />
-          <Image
-            src="/right4.png"
-            alt="Right Image 4"
-            width={400}
-            height={400}
-            className="rounded-2xl object-cover w-full"
-          />
-        </div>
-      </div>
+{/* الأربع صور تحت بعض */}
+<div className="w-screen flex flex-col items-center gap-4 mx-[-1rem] sm:mx-0 -mt-6">
+  <Image
+    src="/right1.png"
+    alt="Right Image 1"
+    width={400}
+    height={400}
+    className="rounded-2xl object-cover w-full max-w-[500px]"
+  />
+  <Image
+    src="/right2.png"
+    alt="Right Image 2"
+    width={400}
+    height={400}
+    className="rounded-2xl object-cover w-full max-w-[500px]"
+  />
+  <Image
+    src="/right3.png"
+    alt="Right Image 3"
+    width={400}
+    height={400}
+    className="rounded-2xl object-cover w-full max-w-[500px]"
+  />
+  <Image
+    src="/right4.png"
+    alt="Right Image 4"
+    width={400}
+    height={400}
+    className="rounded-2xl object-cover w-full max-w-[500px]"
+  />
+</div>
+</div>
+
     </section>
   );
 }
