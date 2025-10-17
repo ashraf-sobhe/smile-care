@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function AssetSection() {
   return (
-    <section className="relative max-w-[1400px] mx-4 sm:mx-auto bg-[#C7F0FD] rounded-2xl mt-32 mb-20 overflow-visible">
+    <section className="relative max-w-[1400px] mx-4 sm:mx-auto bg-[#C7F0FD] rounded-2xl mt-10 md:mt-32 mb-20 overflow-visible">
       {/* نسخة الموبايل */}
       <div className="block md:hidden px-8 py-10 text-center flex flex-col items-center relative overflow-hidden">
         <p className="text-[#FF9140] text-sm font-semibold mb-2">
