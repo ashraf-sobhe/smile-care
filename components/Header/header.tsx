@@ -10,8 +10,8 @@ export default function Header() {
     <header className="relative w-full bg-[#EFF6FF] ">
       {/* Desktop split background */}
       <div className="absolute inset-0 flex hidden md:flex">
-        <div className="w-[71.5%] bg-[#EFF6FF]" />
-        <div className="w-[28.5%] bg-white" />
+        <div className="w-[72%] bg-[#EFF6FF]" />
+        <div className="w-[28%] bg-white" />
       </div>
 
       <div className="relative max-w-7xl mx-auto flex items-center justify-between py-3 px-4 md:px-6">

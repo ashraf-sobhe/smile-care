@@ -6,8 +6,8 @@ export default function HeroSection() {
     <section className="relative w-full overflow-hidden bg-[#EFF6FF] ">
       {/* Background split for desktop */}
       <div className="absolute inset-0 flex hidden md:flex">
-        <div className="w-[71.5%] bg-[#EFF6FF]" /> {/* الأزرق */}
-        <div className="w-[28.5%] bg-white" /> {/* الأبيض */}
+        <div className="w-[72%] bg-[#EFF6FF]" /> {/* الأزرق */}
+        <div className="w-[28%] bg-white" /> {/* الأبيض */}
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 md:px-8 md:pl-48 flex flex-col md:flex-row items-start md:items-center">

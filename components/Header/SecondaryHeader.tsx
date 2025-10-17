@@ -5,8 +5,8 @@ export default function SecondaryHeader() {
   return (
     <div className="relative w-full hidden md:block">
       <div className="absolute inset-0 flex">
-        <div className="w-[71.5%] bg-[#EFF6FF]" />
-        <div className="w-[28.5%] bg-white" />
+        <div className="w-[72%] bg-[#EFF6FF]" />
+        <div className="w-[28%] bg-white" />
       </div>
 
       <div className="relative max-w-7xl mx-auto px-6 py-7">
