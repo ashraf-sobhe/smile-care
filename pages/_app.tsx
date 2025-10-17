@@ -10,7 +10,8 @@ import Provid from "../components/Provid/provid";
 import Numbers from "../components/Numbers/numbers";
 import Slider from "../components/Slider/slider";
 import Asset from "../components/Asset/asset"
-import Confidence from "../components/Confidence/confidence"
+import Confidence from "../components/Confidence/confidence";
+import Blog from "../components/Blog/blog";
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -39,6 +40,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <Slider />
         <Asset />
         <Confidence />
+        <Blog />
       </div>
     </main>
   );
