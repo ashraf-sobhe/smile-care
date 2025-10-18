@@ -12,7 +12,7 @@ import Slider from "../components/Slider/slider";
 import Asset from "../components/Asset/asset"
 import Confidence from "../components/Confidence/confidence";
 import Blog from "../components/Blog/blog";
-
+import Footer from "../components/Footer/footer"
 const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
   weight: ["600"], // semibold
@@ -41,6 +41,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <Asset />
         <Confidence />
         <Blog />
+        <Footer />
       </div>
     </main>
   );

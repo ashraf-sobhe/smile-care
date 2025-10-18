@@ -42,7 +42,7 @@ export default function BlogSection() {
               height={500}
               className="w-full object-cover"
             />
-            <div className="absolute inset-0 bg-[#45CDF7] opacity-50"></div>
+            <div className="absolute inset-0 bg-[#45CDF7] opacity-20"></div>
             <div className="absolute bottom-4 left-4 z-10">
               <p className="text-[#3366FF] font-semibold text-sm md:text-base md:pb-5">
                 December 15, 2024
@@ -68,7 +68,7 @@ export default function BlogSection() {
                   height={500}
                   className="w-full object-cover"
                 />
-                <div className="absolute inset-0 bg-[#45CDF7] opacity-50"></div>
+                <div className="absolute inset-0 bg-[#45CDF7] opacity-20"></div>
                 <div className="absolute bottom-4 left-4 z-10">
                   <p className="text-[#3366FF] font-semibold text-sm md:text-base md:pb-5">
                     December 15, 2024
@@ -127,7 +127,7 @@ export default function BlogSection() {
             height={500}
             className="w-full object-cover"
           />
-          <div className="absolute inset-0 bg-[#45CDF7] opacity-50"></div>
+          <div className="absolute inset-0 bg-[#45CDF7] opacity-20"></div>
           <div className="absolute bottom-4 left-4 z-10">
             <p className="text-[#3366FF] font-semibold text-sm mb-1">
               December 15, 2024
@@ -154,7 +154,7 @@ export default function BlogSection() {
                 height={500}
                 className="w-full object-cover"
               />
-              <div className="absolute inset-0 bg-[#45CDF7] opacity-50"></div>
+              <div className="absolute inset-0 bg-[#45CDF7] opacity-20"></div>
               <div className="absolute bottom-4 left-4 z-10">
                 <p className="text-[#3366FF] font-semibold text-sm mb-1">
                   December 15, 2024
