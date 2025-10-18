@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function BlogSection() {
   return (
-    <section className="bg-white py-20 px-5 sm:px-10 lg:px-16">
+    <section  id="blog" className="bg-white py-20 px-5 sm:px-10 lg:px-16">
       {/* ====== Desktop Version ====== */}
       <div className="hidden md:flex flex-col">
         {/* العنوان + زرار */}

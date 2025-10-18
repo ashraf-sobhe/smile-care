@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#C7F0FD] py-10 px-6 md:px-16">
+    <footer id="contact" className="bg-[#C7F0FD] py-10 px-6 md:px-16">
       <div className="max-w-7xl mx-auto flex flex-col gap-6">
         {/* ====== Desktop Version ====== */}
         <div className="hidden md:flex flex-col gap-6">

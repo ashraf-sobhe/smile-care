@@ -13,7 +13,7 @@ export default function WhatWeProvideSection() {
   const paragraph = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.";
 
   return (
-<section className="max-w-[1400px] mx-[15px] sm:mx-auto bg-[#EFF6FF] rounded-2xl py-14 px-5 sm:px-6 lg:px-8 mb-20 ">
+<section  id="services" className="max-w-[1400px] mx-[15px] sm:mx-auto bg-[#EFF6FF] rounded-2xl py-14 px-5 sm:px-6 lg:px-8 mb-20 ">
       
       {/* العنوان الرئيسي */}
       <div className="text-center mb-12">
