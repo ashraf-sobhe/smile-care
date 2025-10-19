@@ -20,27 +20,27 @@ export default function AssetSection() {
           eiusmod tempor incididunt ut labore et dolore.
         </p>
 
-         <button className="flex items-center justify-center gap-3 bg-[#3366FF] text-white px-5 py-2 rounded-full text-[14px] md:text-[15px] font-[var(--font-jakarta)] font-semibold tracking-[0.15em] hover:bg-blue-600 transition">
-            BOOK NOW
-            <Image
-              src="/Right.png"
-              alt="Arrow Right"
-              width={18}
-              height={18}
-              className="invert brightness-0 contrast-100 transition-transform duration-300 group-hover:translate-x-1"
-            />
-          </button>
+        <button className="flex items-center justify-center gap-3 bg-[#3366FF] text-white px-5 py-2 rounded-full text-[14px] md:text-[15px] font-[var(--font-jakarta)] font-semibold tracking-[0.15em] hover:bg-blue-600 transition">
+          BOOK NOW
+          <Image
+            src="/Right.png"
+            alt="Arrow Right"
+            width={18}
+            height={18}
+            className="invert brightness-0 contrast-100 transition-transform duration-300 group-hover:translate-x-1"
+          />
+        </button>
 
         {/* الصور فوق بعض */}
-        <div className="relative mt-10 w-[320px] h-[420px] flex justify-center items-end">
-          {/* البيضاوية (الخلفية) */}
-          <div className="absolute inset-0 flex justify-center">
+        <div className="relative w-full flex justify-center items-center">
+          {/* الخلفية */}
+          <div className="absolute flex justify-center items-center">
             <Image
               src="/OVAL.png"
               alt="Background Oval"
-              width={600}
-              height={600}
-              className="object-contain opacity-90 translate-y-[40px] translate-x-[-30px] scale-110"
+              width={400}
+              height={400}
+              className="object-contain opacity-95 scale-[1.9] sm:scale-[1.5] translate-y-[60px] -translate-x-[50px]"
             />
           </div>
 

@@ -30,7 +30,7 @@ export default function ConfidenceSection() {
   ];
 
   return (
-    <section className="bg-[#EFF6FF] py-34 px-5 sm:px-10 lg:px-16">
+    <section className="bg-[#EFF6FF] py-10 md:py-30 px-5 sm:px-10 lg:px-16">
       {/* ====== نسخة الديسكتوب ====== */}
       <div className="max-w-7xl mx-auto hidden md:flex flex-row items-center justify-between gap-10">
         {/* ====== Left Side (Text + Image) ====== */}
@@ -106,7 +106,7 @@ export default function ConfidenceSection() {
       {/* ====== نسخة الموبايل ====== */}
       <div className="flex flex-col items-center text-center  md:hidden ">
         {/* العنوان الصغير */}
-        <p className="text-[#FF9140] font-semibold tracking-[0.1em] mb-3 text-sm">
+        <p className="text-[#FF9140] font-semibold tracking-[0.1em] mb-3 pt-0 text-sm">
           TESTIMONIAL
         </p>
 
