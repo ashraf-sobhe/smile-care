@@ -36,7 +36,7 @@ export default function AssetSection() {
           {/* البيضاوية (الخلفية) */}
           <div className="absolute inset-0 flex justify-center">
             <Image
-              src="/Oval.png"
+              src="/OVAL.png"
               alt="Background Oval"
               width={600}
               height={600}
